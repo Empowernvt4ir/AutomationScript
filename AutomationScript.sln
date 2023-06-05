@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{5DD2F8BE-0E1F-4E14-BEA7-2E591AC8329F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{36943B27-8FAA-4637-99BD-14AF864858EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{42325279-5B80-4CB2-8177-6A4880D075A4}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{4331E6B6-C57D-446E-BA51-C9E450DEC451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{4315857D-5885-4A47-9B91-6C63D978573D}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9382E163-249E-4C7D-9369-0218D28EDEE4}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{30871BBD-ECCB-47F3-A68F-44E737BC8B6F}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "novi", "novi", "{321369D9-FED0-401A-AF71-CF0DAE259961}"
+	ProjectSection(SolutionItems) = preProject
+		novi.xml = novi.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{71D88500-0D59-4A61-894A-FDF3EF7DDCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "novi_1", "novi_1\novi_1.csproj", "{3CCFECD8-8CF7-455B-890B-1F37AA8D66F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CCFECD8-8CF7-455B-890B-1F37AA8D66F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCFECD8-8CF7-455B-890B-1F37AA8D66F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCFECD8-8CF7-455B-890B-1F37AA8D66F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCFECD8-8CF7-455B-890B-1F37AA8D66F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4315857D-5885-4A47-9B91-6C63D978573D} = {4331E6B6-C57D-446E-BA51-C9E450DEC451}
+		{30871BBD-ECCB-47F3-A68F-44E737BC8B6F} = {5DD2F8BE-0E1F-4E14-BEA7-2E591AC8329F}
+		{321369D9-FED0-401A-AF71-CF0DAE259961} = {36943B27-8FAA-4637-99BD-14AF864858EE}
+		{71D88500-0D59-4A61-894A-FDF3EF7DDCEC} = {321369D9-FED0-401A-AF71-CF0DAE259961}
+		{3CCFECD8-8CF7-455B-890B-1F37AA8D66F1} = {71D88500-0D59-4A61-894A-FDF3EF7DDCEC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81C174B4-363C-42E8-B6D9-4731E365DE0F}
+	EndGlobalSection
+EndGlobal
